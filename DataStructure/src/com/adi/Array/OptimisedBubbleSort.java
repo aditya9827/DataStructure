@@ -4,6 +4,16 @@ public class OptimisedBubbleSort {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		optimizedBubbleSort();
+		
+
+	}
+
+	/**
+	 * 
+	 */
+	static void optimizedBubbleSort() {
+
 		int[] generatedArray = new int[20];
 		
 		boolean swapped = false;
@@ -31,8 +41,6 @@ public class OptimisedBubbleSort {
 			System.out.println("After " + (i+1) + "iteration");
 			BasicArrayFunctionality.printArray(generatedArray);
 		}
-		
-
 	}
 
 }

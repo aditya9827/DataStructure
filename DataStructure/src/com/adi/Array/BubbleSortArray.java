@@ -6,6 +6,14 @@ public class BubbleSortArray {
 		// TODO Auto-generated method stub
 
 		//int[] generatedArray = {100,90,10,2,4};
+		normalBubbleSort();
+
+	}
+
+	/**
+	 * 
+	 */
+	static void normalBubbleSort() {
 		int[] generatedArray = new int[20];
 		// GenerateArray generate = new GenerateArray();
 		generatedArray = BasicArrayFunctionality.createArray(10);
@@ -30,7 +38,6 @@ public class BubbleSortArray {
 		System.out.println("After bubble sorting");
 		
 		BasicArrayFunctionality.printArray(generatedArray);
-
 	}
 
 	// private static void swap(int a, int b) {

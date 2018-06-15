@@ -23,4 +23,12 @@ public class BasicArrayFunctionality {
 			 System.out.println(array[i]);
 		}
 	}
+	
+	public static void normalBubbleSortImpl() {
+		BubbleSortArray.normalBubbleSort();
+	}
+	
+	public static void optimizedBubbleSort() {
+		OptimisedBubbleSort.optimizedBubbleSort();
+	}
 }
