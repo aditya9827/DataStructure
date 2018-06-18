@@ -4,7 +4,7 @@ public class OptimisedBubbleSort {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		optimizedBubbleSort();
+		//optimizedBubbleSort();
 		
 
 	}
@@ -12,14 +12,14 @@ public class OptimisedBubbleSort {
 	/**
 	 * 
 	 */
-	static void optimizedBubbleSort() {
+	static void optimizedBubbleSort(int [] array) {
 
 		int[] generatedArray = new int[20];
 		
 		boolean swapped = false;
 		int arrayLength;
 		// GenerateArray generate = new GenerateArray();
-		generatedArray = BasicArrayFunctionality.createArray(10);
+		generatedArray = array;
 		arrayLength = generatedArray.length;
 		
 		BasicArrayFunctionality.printArray(generatedArray);

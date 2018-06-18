@@ -25,10 +25,14 @@ public class BasicArrayFunctionality {
 	}
 	
 	public static void normalBubbleSortImpl() {
-		BubbleSortArray.normalBubbleSort();
+		BubbleSortArray.normalBubbleSort(createArray(10));
 	}
 	
 	public static void optimizedBubbleSort() {
-		OptimisedBubbleSort.optimizedBubbleSort();
+		OptimisedBubbleSort.optimizedBubbleSort(createArray(10));
+	}
+	
+	public static void selectionSort() {
+		SelectionSort.selectionSort(int[] array);
 	}
 }

@@ -8,7 +8,10 @@ public class TestBasicArrayFunctionality {
 		BasicArrayFunctionality.normalBubbleSortImpl();
 		
 		//2. Optimized Bubble Sort
-		BasicArrayFunctionality.optimizedBubbleSort();
+		//BasicArrayFunctionality.optimizedBubbleSort();
+		
+		//3. Selection Sort
+		//BasicArrayFunctionality.selectionSort();
 
 	}
 
