@@ -21,10 +21,11 @@ public class SelectionSort {
 		
 		for(int i =0; i < arrayLength - 1; i++) {
 			arrayMin = generatedArray[i];
+			indexMin = i;
 			for(int j =i+1; j< arrayLength ; j++) {
 				if(arrayMin > generatedArray[j]) {
 					indexMax = j;
-					indexMin = i;
+					
 					arrayMin = generatedArray[j];
 					swapNumber = true;
 				}
